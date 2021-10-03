@@ -1,0 +1,7 @@
+[178[ [179[ [223[ [216[ |Lunchbox| *100* =1= #speech#  <0.08< >4> (0.2( )5) {0.83{ }5} `hand_textbox` ~clickText~
+:Loki_Portrait: !default! [Pixel Arial 11 Bold[ ]32] *100* =0= +0+ -0- <0< >0> ;0.04; |true| #speech# ^pixelText^ !#FF3F2021! ?#FFD89494? .. ~~      So you two going to stay the night?
+:bf: !default! [Pixel Arial 11 Bold[ ]32] *100* =0= +0+ -0- <0< >0> ;0.04; |false| #speech# ^pixelText^ !#FF3F2021! ?#FFD89494? .. ~~      Yup! if its ok with you.
+:bf: !default! [Pixel Arial 11 Bold[ ]32] *100* =0= +0+ -0- <0< >0> ;0.04; |false| #speech# ^pixelText^ !#FF3F2021! ?#FFD89494? .. ~~     Is there an extra room?
+:Loki_Portrait: !default! [Pixel Arial 11 Bold[ ]32] *100* =0= +0+ -0- <0< >0> ;0.04; |true| #speech# ^pixelText^ !#FF3F2021! ?#FFD89494? .. ~~      Yeah there is, its next to Dony's room.
+:Loki_Portrait: !default! [Pixel Arial 11 Bold[ ]32] *100* =0= +0+ -0- <0< >0> ;0.04; |true| #speech# ^pixelText^ !#FF3F2021! ?#FFD89494? .. ~~      Wanna stay up longer?
+:bf: !default! [Pixel Arial 11 Bold[ ]32] *100* =0= +0+ -0- <0< >0> ;0.04; |false| #speech# ^pixelText^ !#FF3F2021! ?#FFD89494? .. ~~      Heck yeah Lets go!

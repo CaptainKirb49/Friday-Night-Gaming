@@ -1,0 +1,57 @@
+{
+	"songs": [
+		[
+			"shantie",
+			"icon_emo_dog",
+			[
+				0,
+				0,
+				20
+			]
+		],
+		[
+			"judgment",
+			"icon_emo_dog",
+			[
+				0,
+				0,
+				20
+			]
+		],
+		[
+			"mutt",
+			"icon_emo_dog",
+			[
+				0,
+				0,
+				20
+			]
+		],
+		[
+			"emo-dog",
+			"icon_emo_dog",
+			[
+				0,
+				0,
+				20
+			]
+		]
+	],
+	"hideFreeplay": false,
+	"weekBackground": "plaza",
+	"weekCharacters": [
+		"emo-dog",
+		"bf",
+		"gf"
+	],
+	"storyName": "Luke",
+	"weekName": "Custom Week",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"hideStoryMode": false,
+	"weekBefore": "tutorial",
+	"startUnlocked": true
+}

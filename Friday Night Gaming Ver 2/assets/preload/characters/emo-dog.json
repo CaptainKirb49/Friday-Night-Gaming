@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				-45,
+				383
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "idle",
+			"loop": false,
+			"name": "idle"
+		},
+		{
+			"offsets": [
+				-46,
+				381
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singLEFT",
+			"loop": false,
+			"name": "left"
+		},
+		{
+			"offsets": [
+				-86,
+				380
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singDOWN",
+			"loop": false,
+			"name": "down"
+		},
+		{
+			"offsets": [
+				-52,
+				398
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singUP",
+			"loop": false,
+			"name": "up"
+		},
+		{
+			"offsets": [
+				-86,
+				384
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singRIGHT",
+			"loop": false,
+			"name": "right"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/emo_dog",
+	"position": [
+		0,
+		350
+	],
+	"healthicon": "icon_emo_dog",
+	"flip_x": false,
+	"healthbar_colors": [
+		0,
+		0,
+		0
+	],
+	"camera_position": [
+		-10,
+		-170
+	],
+	"sing_duration": 4,
+	"scale": 0.6
+}

@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="menu_credits.png">
+<SubTexture name="menu creditsbase0000" x="0" y="0" width="674" height="482" frameX="0" frameY="0" frameWidth="674" frameHeight="482" />
+<SubTexture name="basic0000" x="674" y="0" width="674" height="482" frameX="0" frameY="0" frameWidth="674" frameHeight="482" />
+<SubTexture name="basic0001" x="1348" y="0" width="674" height="482" frameX="0" frameY="0" frameWidth="674" frameHeight="482" />
+<SubTexture name="basic0002" x="2022" y="0" width="674" height="482" frameX="0" frameY="0" frameWidth="674" frameHeight="482" />
+<SubTexture name="basic0003" x="0" y="482" width="674" height="482" frameX="0" frameY="0" frameWidth="674" frameHeight="482" />
+<SubTexture name="basic0004" x="674" y="482" width="674" height="482" frameX="0" frameY="0" frameWidth="674" frameHeight="482" />
+<SubTexture name="basic0005" x="1348" y="482" width="674" height="482" frameX="0" frameY="0" frameWidth="674" frameHeight="482" />
+</TextureAtlas>

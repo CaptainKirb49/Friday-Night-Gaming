@@ -1,0 +1,57 @@
+{
+	"songs": [
+		[
+			"co-op",
+			"icon_loki",
+			[
+				0,
+				0,
+				255
+			]
+		],
+		[
+			"rumble",
+			"icon_loki",
+			[
+				0,
+				0,
+				255
+			]
+		],
+		[
+			"all-nighter",
+			"icon_loki",
+			[
+				0,
+				0,
+				175
+			]
+		],
+		[
+			"game-on",
+			"icon_loki",
+			[
+				0,
+				0,
+				115
+			]
+		]
+	],
+	"hideFreeplay": false,
+	"weekBackground": "gamers1",
+	"weekCharacters": [
+		"",
+		"",
+		""
+	],
+	"storyName": "Loki",
+	"weekName": "Custom Week",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"hideStoryMode": false,
+	"weekBefore": "tutorial",
+	"startUnlocked": true
+}

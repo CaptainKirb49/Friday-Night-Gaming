@@ -1,0 +1,89 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				-77,
+				117
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "idle",
+			"loop": false,
+			"name": "Loki idle0"
+		},
+		{
+			"offsets": [
+				-44,
+				141
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singLEFT",
+			"loop": false,
+			"name": "Loki Left0"
+		},
+		{
+			"offsets": [
+				-76,
+				110
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singDOWN",
+			"loop": false,
+			"name": "Loki Down0"
+		},
+		{
+			"offsets": [
+				-73,
+				146
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singUP",
+			"loop": false,
+			"name": "Loki Up0"
+		},
+		{
+			"offsets": [
+				-78,
+				134
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singRIGHT",
+			"loop": false,
+			"name": "Loki Right0"
+		},
+		{
+			"offsets": [
+				-47,
+				514
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singUP-alt",
+			"loop": false,
+			"name": "Loki Jump0"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/Loki_Animations",
+	"position": [
+		0,
+		350
+	],
+	"healthicon": "icon_loki",
+	"flip_x": false,
+	"healthbar_colors": [
+		0,
+		200,
+		255
+	],
+	"camera_position": [
+		-140,
+		-20
+	],
+	"sing_duration": 4,
+	"scale": 0.6
+}

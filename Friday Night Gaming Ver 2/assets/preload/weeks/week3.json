@@ -1,0 +1,57 @@
+{
+	"songs": [
+		[
+			"style",
+			"icon_dony",
+			[
+				255,
+				255,
+				0
+			]
+		],
+		[
+			"poppu",
+			"icon_dony",
+			[
+				255,
+				255,
+				0
+			]
+		],
+		[
+			"hoshi",
+			"icon_dony",
+			[
+				255,
+				255,
+				0
+			]
+		],
+		[
+			"future",
+			"icon_dony",
+			[
+				255,
+				255,
+				0
+			]
+		]
+	],
+	"hideFreeplay": false,
+	"weekBackground": "stage",
+	"weekCharacters": [
+		"dony",
+		"",
+		"bf"
+	],
+	"storyName": "Dony",
+	"weekName": "Custom Week",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"hideStoryMode": false,
+	"weekBefore": "tutorial",
+	"startUnlocked": true
+}

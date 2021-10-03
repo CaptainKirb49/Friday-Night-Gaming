@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="menu_freeplay.png"><SubTexture name="menu freeplaybase0000" x="0" y="0" width="689" height="522" frameX="0" frameY="0" frameWidth="689" frameHeight="522" />
+<SubTexture name="basic0000" x="689" y="0" width="689" height="522" frameX="0" frameY="0" frameWidth="689" frameHeight="522" />
+<SubTexture name="basic0001" x="1378" y="0" width="689" height="522" frameX="0" frameY="0" frameWidth="689" frameHeight="522" />
+<SubTexture name="basic0002" x="2067" y="0" width="689" height="522" frameX="0" frameY="0" frameWidth="689" frameHeight="522" />
+<SubTexture name="basic0003" x="0" y="522" width="689" height="522" frameX="0" frameY="0" frameWidth="689" frameHeight="522" />
+<SubTexture name="basic0004" x="689" y="522" width="689" height="522" frameX="0" frameY="0" frameWidth="689" frameHeight="522" />
+<SubTexture name="basic0005" x="1378" y="522" width="689" height="522" frameX="0" frameY="0" frameWidth="689" frameHeight="522" />
+<SubTexture name="basic0006" x="2067" y="522" width="689" height="522" frameX="0" frameY="0" frameWidth="689" frameHeight="522" />
+</TextureAtlas>

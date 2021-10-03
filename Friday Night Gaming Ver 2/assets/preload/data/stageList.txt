@@ -1,0 +1,4 @@
+stage
+gamer1
+gamer2
+plaza

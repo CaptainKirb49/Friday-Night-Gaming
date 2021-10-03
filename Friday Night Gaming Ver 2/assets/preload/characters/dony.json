@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				-205,
+				157
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "idle",
+			"loop": false,
+			"name": "idle donny0"
+		},
+		{
+			"offsets": [
+				-178,
+				154
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singLEFT",
+			"loop": false,
+			"name": "left donny0"
+		},
+		{
+			"offsets": [
+				-200,
+				130
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singDOWN",
+			"loop": false,
+			"name": "down donny0"
+		},
+		{
+			"offsets": [
+				-179,
+				177
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singUP",
+			"loop": false,
+			"name": "up donny0"
+		},
+		{
+			"offsets": [
+				-99,
+				99
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singRIGHT",
+			"loop": false,
+			"name": "right donny0"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/donny",
+	"position": [
+		0,
+		350
+	],
+	"healthicon": "icon_dony",
+	"flip_x": false,
+	"healthbar_colors": [
+		95,
+		0,
+		0
+	],
+	"camera_position": [
+		-10,
+		-170
+	],
+	"sing_duration": 4,
+	"scale": 1
+}

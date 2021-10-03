@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="donny.png">
+	<!-- Created with Adobe Animate version 19.2.1.408 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="down donny0000" x="0" y="0" width="294" height="512" frameX="0" frameY="0" frameWidth="307" frameHeight="513"/>
+	<SubTexture name="down donny0001" x="0" y="0" width="294" height="512" frameX="0" frameY="0" frameWidth="307" frameHeight="513"/>
+	<SubTexture name="down donny0002" x="294" y="0" width="306" height="506" frameX="-1" frameY="-7" frameWidth="307" frameHeight="513"/>
+	<SubTexture name="down donny0003" x="600" y="0" width="306" height="504" frameX="-1" frameY="-9" frameWidth="307" frameHeight="513"/>
+	<SubTexture name="down donny0004" x="600" y="0" width="306" height="504" frameX="-1" frameY="-9" frameWidth="307" frameHeight="513"/>
+	<SubTexture name="down donny0005" x="600" y="0" width="306" height="504" frameX="-1" frameY="-9" frameWidth="307" frameHeight="513"/>
+	<SubTexture name="down donny0006" x="600" y="0" width="306" height="504" frameX="-1" frameY="-9" frameWidth="307" frameHeight="513"/>
+	<SubTexture name="down donny0007" x="600" y="0" width="306" height="504" frameX="-1" frameY="-9" frameWidth="307" frameHeight="513"/>
+	<SubTexture name="down donny0008" x="600" y="0" width="306" height="504" frameX="-1" frameY="-9" frameWidth="307" frameHeight="513"/>
+	<SubTexture name="down donny0009" x="600" y="0" width="306" height="504" frameX="-1" frameY="-9" frameWidth="307" frameHeight="513"/>
+	<SubTexture name="idle donny0000" x="906" y="0" width="186" height="506" frameX="0" frameY="-30" frameWidth="186" frameHeight="536"/>
+	<SubTexture name="idle donny0001" x="1092" y="0" width="186" height="506" frameX="0" frameY="-30" frameWidth="186" frameHeight="536"/>
+	<SubTexture name="idle donny0002" x="1278" y="0" width="173" height="514" frameX="-7" frameY="-22" frameWidth="186" frameHeight="536"/>
+	<SubTexture name="idle donny0003" x="1451" y="0" width="173" height="514" frameX="-7" frameY="-22" frameWidth="186" frameHeight="536"/>
+	<SubTexture name="idle donny0004" x="1624" y="0" width="167" height="528" frameX="-10" frameY="-8" frameWidth="186" frameHeight="536"/>
+	<SubTexture name="idle donny0005" x="1791" y="0" width="167" height="536" frameX="-10" frameY="0" frameWidth="186" frameHeight="536"/>
+	<SubTexture name="idle donny0006" x="0" y="536" width="167" height="535" frameX="-10" frameY="-1" frameWidth="186" frameHeight="536"/>
+	<SubTexture name="idle donny0007" x="0" y="536" width="167" height="535" frameX="-10" frameY="-1" frameWidth="186" frameHeight="536"/>
+	<SubTexture name="idle donny0008" x="0" y="536" width="167" height="535" frameX="-10" frameY="-1" frameWidth="186" frameHeight="536"/>
+	<SubTexture name="idle donny0009" x="0" y="536" width="167" height="535" frameX="-10" frameY="-1" frameWidth="186" frameHeight="536"/>
+	<SubTexture name="left donny0000" x="167" y="536" width="234" height="532" frameX="-2" frameY="0" frameWidth="236" frameHeight="532"/>
+	<SubTexture name="left donny0001" x="167" y="536" width="234" height="532" frameX="-2" frameY="0" frameWidth="236" frameHeight="532"/>
+	<SubTexture name="left donny0002" x="401" y="536" width="231" height="527" frameX="-1" frameY="-5" frameWidth="236" frameHeight="532"/>
+	<SubTexture name="left donny0003" x="632" y="536" width="227" height="527" frameX="0" frameY="-5" frameWidth="236" frameHeight="532"/>
+	<SubTexture name="left donny0004" x="632" y="536" width="227" height="527" frameX="0" frameY="-5" frameWidth="236" frameHeight="532"/>
+	<SubTexture name="left donny0005" x="632" y="536" width="227" height="527" frameX="0" frameY="-5" frameWidth="236" frameHeight="532"/>
+	<SubTexture name="left donny0006" x="632" y="536" width="227" height="527" frameX="0" frameY="-5" frameWidth="236" frameHeight="532"/>
+	<SubTexture name="left donny0007" x="632" y="536" width="227" height="527" frameX="0" frameY="-5" frameWidth="236" frameHeight="532"/>
+	<SubTexture name="left donny0008" x="632" y="536" width="227" height="527" frameX="0" frameY="-5" frameWidth="236" frameHeight="532"/>
+	<SubTexture name="left donny0009" x="632" y="536" width="227" height="527" frameX="0" frameY="-5" frameWidth="236" frameHeight="532"/>
+	<SubTexture name="right donny0000" x="859" y="536" width="398" height="478" frameX="0" frameY="0" frameWidth="411" frameHeight="478"/>
+	<SubTexture name="right donny0001" x="1257" y="536" width="398" height="476" frameX="0" frameY="-2" frameWidth="411" frameHeight="478"/>
+	<SubTexture name="right donny0002" x="0" y="1071" width="398" height="472" frameX="-8" frameY="-6" frameWidth="411" frameHeight="478"/>
+	<SubTexture name="right donny0003" x="398" y="1071" width="398" height="467" frameX="-13" frameY="-11" frameWidth="411" frameHeight="478"/>
+	<SubTexture name="right donny0004" x="398" y="1071" width="398" height="467" frameX="-13" frameY="-11" frameWidth="411" frameHeight="478"/>
+	<SubTexture name="right donny0005" x="398" y="1071" width="398" height="467" frameX="-13" frameY="-11" frameWidth="411" frameHeight="478"/>
+	<SubTexture name="right donny0006" x="398" y="1071" width="398" height="467" frameX="-13" frameY="-11" frameWidth="411" frameHeight="478"/>
+	<SubTexture name="right donny0007" x="398" y="1071" width="398" height="467" frameX="-13" frameY="-11" frameWidth="411" frameHeight="478"/>
+	<SubTexture name="right donny0008" x="398" y="1071" width="398" height="467" frameX="-13" frameY="-11" frameWidth="411" frameHeight="478"/>
+	<SubTexture name="right donny0009" x="398" y="1071" width="398" height="467" frameX="-13" frameY="-11" frameWidth="411" frameHeight="478"/>
+	<SubTexture name="right donny0010" x="398" y="1071" width="398" height="467" frameX="-13" frameY="-11" frameWidth="411" frameHeight="478"/>
+	<SubTexture name="up donny0000" x="796" y="1071" width="222" height="551" frameX="-1" frameY="-4" frameWidth="223" frameHeight="556"/>
+	<SubTexture name="up donny0001" x="796" y="1071" width="222" height="551" frameX="-1" frameY="-4" frameWidth="223" frameHeight="556"/>
+	<SubTexture name="up donny0002" x="1018" y="1071" width="223" height="556"/>
+	<SubTexture name="up donny0003" x="1018" y="1071" width="223" height="556"/>
+	<SubTexture name="up donny0004" x="1018" y="1071" width="223" height="556"/>
+	<SubTexture name="up donny0005" x="1018" y="1071" width="223" height="556"/>
+	<SubTexture name="up donny0006" x="1018" y="1071" width="223" height="556"/>
+	<SubTexture name="up donny0007" x="1018" y="1071" width="223" height="556"/>
+	<SubTexture name="up donny0008" x="1018" y="1071" width="223" height="556"/>
+	<SubTexture name="up donny0009" x="1018" y="1071" width="223" height="556"/>
+</TextureAtlas>
