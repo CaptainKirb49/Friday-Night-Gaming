@@ -5,10 +5,10 @@
 				-45,
 				383
 			],
-			"indices": [],
+			"loop": false,
 			"fps": 24,
 			"anim": "idle",
-			"loop": false,
+			"indices": [],
 			"name": "idle"
 		},
 		{
@@ -16,10 +16,10 @@
 				-46,
 				381
 			],
-			"indices": [],
+			"loop": false,
 			"fps": 24,
 			"anim": "singLEFT",
-			"loop": false,
+			"indices": [],
 			"name": "left"
 		},
 		{
@@ -27,10 +27,10 @@
 				-86,
 				380
 			],
-			"indices": [],
+			"loop": false,
 			"fps": 24,
 			"anim": "singDOWN",
-			"loop": false,
+			"indices": [],
 			"name": "down"
 		},
 		{
@@ -38,10 +38,10 @@
 				-52,
 				398
 			],
-			"indices": [],
+			"loop": false,
 			"fps": 24,
 			"anim": "singUP",
-			"loop": false,
+			"indices": [],
 			"name": "up"
 		},
 		{
@@ -49,18 +49,18 @@
 				-86,
 				384
 			],
-			"indices": [],
+			"loop": false,
 			"fps": 24,
 			"anim": "singRIGHT",
-			"loop": false,
+			"indices": [],
 			"name": "right"
 		}
 	],
 	"no_antialiasing": false,
 	"image": "characters/emo_dog",
 	"position": [
-		0,
-		350
+		-260,
+		390
 	],
 	"healthicon": "icon_emo_dog",
 	"flip_x": false,
@@ -70,9 +70,9 @@
 		0
 	],
 	"camera_position": [
-		-10,
-		-170
+		-70,
+		-350
 	],
 	"sing_duration": 4,
-	"scale": 0.6
+	"scale": 0.8
 }

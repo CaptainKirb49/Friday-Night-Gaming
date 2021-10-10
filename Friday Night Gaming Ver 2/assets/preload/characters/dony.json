@@ -5,10 +5,10 @@
 				-205,
 				157
 			],
-			"indices": [],
+			"loop": false,
 			"fps": 24,
 			"anim": "idle",
-			"loop": false,
+			"indices": [],
 			"name": "idle donny0"
 		},
 		{
@@ -16,51 +16,51 @@
 				-178,
 				154
 			],
-			"indices": [],
+			"loop": false,
 			"fps": 24,
 			"anim": "singLEFT",
-			"loop": false,
+			"indices": [],
 			"name": "left donny0"
 		},
 		{
 			"offsets": [
-				-200,
+				-250,
 				130
 			],
-			"indices": [],
+			"loop": false,
 			"fps": 24,
 			"anim": "singDOWN",
-			"loop": false,
+			"indices": [],
 			"name": "down donny0"
 		},
 		{
 			"offsets": [
-				-179,
-				177
+				-229,
+				188
 			],
-			"indices": [],
+			"loop": false,
 			"fps": 24,
 			"anim": "singUP",
-			"loop": false,
+			"indices": [],
 			"name": "up donny0"
 		},
 		{
 			"offsets": [
-				-99,
-				99
+				-97,
+				75
 			],
-			"indices": [],
+			"loop": false,
 			"fps": 24,
 			"anim": "singRIGHT",
-			"loop": false,
+			"indices": [],
 			"name": "right donny0"
 		}
 	],
 	"no_antialiasing": false,
 	"image": "characters/donny",
 	"position": [
-		0,
-		350
+		-10,
+		320
 	],
 	"healthicon": "icon_dony",
 	"flip_x": false,
@@ -70,9 +70,9 @@
 		0
 	],
 	"camera_position": [
-		-10,
-		-170
+		-120,
+		-330
 	],
 	"sing_duration": 4,
-	"scale": 1
+	"scale": 1.5
 }

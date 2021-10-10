@@ -170,10 +170,10 @@
 				-10,
 				-16
 			],
-			"indices": [],
+			"loop": false,
 			"fps": 24,
 			"anim": "dodge",
-			"loop": false,
+			"indices": [],
 			"name": "boyfriend dodge"
 		},
 		{
@@ -181,10 +181,10 @@
 				294,
 				267
 			],
-			"indices": [],
+			"loop": false,
 			"fps": 24,
 			"anim": "attack",
-			"loop": false,
+			"indices": [],
 			"name": "boyfriend attack"
 		},
 		{
@@ -192,18 +192,18 @@
 				-40,
 				-40
 			],
-			"indices": [],
+			"loop": false,
 			"fps": 24,
 			"anim": "pre-attack",
-			"loop": false,
+			"indices": [],
 			"name": "bf pre attack"
 		}
 	],
 	"no_antialiasing": false,
 	"image": "characters/BOYFRIEND",
 	"position": [
-		0,
-		350
+		90,
+		450
 	],
 	"healthicon": "bf",
 	"flip_x": true,
@@ -213,7 +213,7 @@
 		209
 	],
 	"camera_position": [
-		0,
+		-80,
 		0
 	],
 	"sing_duration": 4,

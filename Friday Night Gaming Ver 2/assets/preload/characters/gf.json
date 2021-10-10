@@ -3,7 +3,7 @@
 		{
 			"loop": false,
 			"offsets": [
-				3,
+				6,
 				0
 			],
 			"fps": 24,
@@ -194,7 +194,7 @@
 		0
 	],
 	"healthicon": "gf",
-	"flip_x": false,
+	"flip_x": true,
 	"healthbar_colors": [
 		165,
 		0,
@@ -205,5 +205,5 @@
 		0
 	],
 	"sing_duration": 4,
-	"scale": 1
+	"scale": 0.05
 }

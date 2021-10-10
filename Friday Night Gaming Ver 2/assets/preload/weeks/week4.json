@@ -1,0 +1,39 @@
+{
+	"songs": [
+		[
+			"bass",
+			"icon_dony",
+			[
+				255,
+				255,
+				0
+			]
+		],
+		[
+			"hello",
+			"icon_loki",
+			[
+				0,
+				113,
+				253
+			]
+		]
+	],
+	"hideFreeplay": false,
+	"weekBackground": "",
+	"weekCharacters": [
+		"",
+		"",
+		""
+	],
+	"storyName": "Secret",
+	"weekName": "Secret",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"hideStoryMode": true,
+	"weekBefore": "week3",
+	"startUnlocked": false
+}

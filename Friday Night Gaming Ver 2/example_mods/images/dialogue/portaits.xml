@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="portaits.png">
+	<!-- Created with Adobe Animate version 21.0.7.42652 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="DOny portrait0000" x="0" y="0" width="332" height="502" frameX="-1" frameY="0" frameWidth="336" frameHeight="502"/>
+	<SubTexture name="DOny portrait0001" x="332" y="0" width="332" height="502" frameX="0" frameY="0" frameWidth="336" frameHeight="502"/>
+	<SubTexture name="DOny portrait0002" x="664" y="0" width="332" height="502" frameX="-3" frameY="0" frameWidth="336" frameHeight="502"/>
+	<SubTexture name="DOny portrait0003" x="0" y="502" width="332" height="502" frameX="-4" frameY="0" frameWidth="336" frameHeight="502"/>
+</TextureAtlas>

@@ -196,6 +196,11 @@ class PlayState extends MusicBeatState
 	var grpLimoParticles:FlxTypedGroup<BGSprite>;
 	var grpLimoDancers:FlxTypedGroup<BackgroundDancer>;
 	var fastCar:BGSprite;
+	var bg1:BGSprite;
+	var bg2:BGSprite;
+	var bg3:BGSprite;
+	var bg4:BGSprite;
+	var bg5:BGSprite;
 
 	var upperBoppers:BGSprite;
 	var bottomBoppers:BGSprite;
@@ -205,6 +210,7 @@ class PlayState extends MusicBeatState
 	var bgGirls:BackgroundGirls;
 	var wiggleShit:WiggleEffect = new WiggleEffect();
 	var bgGhouls:BGSprite;
+	var bois:BGSprite;
 
 	public var songScore:Int = 0;
 	public var songHits:Int = 0;
@@ -340,20 +346,46 @@ class PlayState extends MusicBeatState
 		{
 			case 'gamer1':
 				var bg:BGSprite = new BGSprite('251', -600, -200, 0.9, 0.9);
+				bg.setGraphicSize(Std.int(bg.width * 0.65));
 				add(bg);
 
 			case 'gamer2':
 				var bg:BGSprite = new BGSprite('250', -600, -200, 0.9, 0.9);
+				bg.setGraphicSize(Std.int(bg.width * 0.65));
 				add(bg);
 
 			case 'plaza':
 				var bg:BGSprite = new BGSprite('together', -600, -200, 0.9, 0.9);
 				add(bg);
 
-				bottomBoppers = new BGSprite('TheBOYS', -600, -200, 0.9, 0.9);
-				bottomBoppers.animation.addByPrefix('hey', 'The BOYS0', 24, true);
-				bottomBoppers.animation.play('hey');
-				add(bottomBoppers);
+				bois = new BGSprite('TheBOYS', -600, -200, 0.9, 0.9, ['The BOYS0'], true);
+				add(bois);
+
+			case 'starStage':
+				var bg5:BGSprite = new BGSprite('bg5', -600, -200, 0.65, 0.65);
+				bg5.setGraphicSize(Std.int(bg5.width * 0.5));
+				bg5.updateHitbox();
+				add(bg5);
+
+				var bg4:BGSprite = new BGSprite('bg4', -600, -200, 0.65, 0.65);
+				bg4.setGraphicSize(Std.int(bg4.width * 0.5));
+				bg4.updateHitbox();
+				add(bg4);
+
+				var bg3:BGSprite = new BGSprite('bg3', -600, -200, 0.65, 0.65);
+				bg3.setGraphicSize(Std.int(bg3.width * 0.5));
+				bg3.updateHitbox();
+				add(bg3);
+
+				var bg2:BGSprite = new BGSprite('bg2', -600, -200, 0.65, 0.65);
+				bg2.setGraphicSize(Std.int(bg2.width * 0.5));
+				bg2.updateHitbox();
+				add(bg2);
+
+				var bg1:BGSprite = new BGSprite('bg1', -600, -200, 0.65, 0.65);
+				bg1.setGraphicSize(Std.int(bg1.width * 0.5));
+				bg1.updateHitbox();
+				add(bg1);
 
 			case 'stage': //Week 1
 				var bg:BGSprite = new BGSprite('stageback', -600, -200, 0.9, 0.9);
