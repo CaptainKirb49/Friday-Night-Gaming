@@ -362,29 +362,24 @@ class PlayState extends MusicBeatState
 				add(bois);
 
 			case 'starStage':
-				var bg5:BGSprite = new BGSprite('bg5', -600, -200, 0.65, 0.65);
+				var bg5:BGSprite = new BGSprite('bg5', -600, -200);
 				bg5.setGraphicSize(Std.int(bg5.width * 0.5));
-				bg5.updateHitbox();
 				add(bg5);
 
-				var bg4:BGSprite = new BGSprite('bg4', -600, -200, 0.65, 0.65);
+				var bg4:BGSprite = new BGSprite('bg4', -600, -200);
 				bg4.setGraphicSize(Std.int(bg4.width * 0.5));
-				bg4.updateHitbox();
 				add(bg4);
 
-				var bg3:BGSprite = new BGSprite('bg3', -600, -200, 0.65, 0.65);
+				var bg3:BGSprite = new BGSprite('bg3', -600, -200);
 				bg3.setGraphicSize(Std.int(bg3.width * 0.5));
-				bg3.updateHitbox();
 				add(bg3);
 
-				var bg2:BGSprite = new BGSprite('bg2', -600, -200, 0.65, 0.65);
+				var bg2:BGSprite = new BGSprite('bg2', -600, -200);
 				bg2.setGraphicSize(Std.int(bg2.width * 0.5));
-				bg2.updateHitbox();
 				add(bg2);
 
-				var bg1:BGSprite = new BGSprite('bg1', -600, -200, 0.65, 0.65);
+				var bg1:BGSprite = new BGSprite('bg1', -600, -200);
 				bg1.setGraphicSize(Std.int(bg1.width * 0.5));
-				bg1.updateHitbox();
 				add(bg1);
 
 			case 'stage': //Week 1
