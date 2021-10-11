@@ -1,0 +1,60 @@
+{
+	"dialogue": [
+		{
+			"speed": 0.05,
+			"portrait": "portaits",
+			"boxState": "angry",
+			"expression": "Talk",
+			"text": "YAHOOO"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "portaits",
+			"boxState": "normal",
+			"expression": "Talk",
+			"text": "Your pretty good at singing pop for a rapper!"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Yeah Ive rapped battled Miku a lot. "
+		},
+		{
+			"speed": 0.05,
+			"portrait": "loki",
+			"boxState": "angry",
+			"expression": "talk",
+			"text": "You mean THE Miku!!"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Yeah shes like a sister to me!"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "loki",
+			"boxState": "angry",
+			"expression": "talk",
+			"text": "You have to inturduce me sometime!"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Will do."
+		},
+		{
+			"speed": 0.05,
+			"portrait": "portaits",
+			"boxState": "angry",
+			"expression": "talk",
+			"text": "Ok lets kick off the next song with a personal favorite of mine HOSHI!!"
+		}
+	]
+}

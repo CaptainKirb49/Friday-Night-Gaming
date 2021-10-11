@@ -1,0 +1,53 @@
+{
+	"dialogue": [
+		{
+			"speed": 0.05,
+			"portrait": "emodog",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "well this is the last song for me. Ima go to Blackjacks then Donys concert."
+		},
+		{
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Donys concert?"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "emodog",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Yep hes grown really big. Hes holding a concert\\nin Vr cause covid and stuff."
+		},
+		{
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "OK then we might want to wrap this up."
+		},
+		{
+			"speed": 0.09,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "E M O D O G"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "emodog",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "You little-"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "emodog",
+			"boxState": "angry",
+			"expression": "talk",
+			"text": "Fine then shortie lets go!"
+		}
+	]
+}

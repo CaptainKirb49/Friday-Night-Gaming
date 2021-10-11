@@ -1,0 +1,39 @@
+{
+	"dialogue": [
+		{
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Ok thats it for me."
+		},
+		{
+			"speed": 0.05,
+			"portrait": "portaits",
+			"boxState": "angry",
+			"expression": "talk",
+			"text": "Come on one more song to give this show a ending to go off with a BANG!"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Ok ok Lets do this one more song !"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "portaits",
+			"boxState": "angry",
+			"expression": "talk",
+			"text": "Im gonna go all OUT!!!"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "angry",
+			"expression": "talk",
+			"text": "BRING IT DONY!!"
+		}
+	]
+}

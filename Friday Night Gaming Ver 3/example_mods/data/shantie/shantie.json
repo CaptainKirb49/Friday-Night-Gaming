@@ -1,0 +1,60 @@
+{
+	"dialogue": [
+		{
+			"speed": 0.05,
+			"portrait": "emodog",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "What are you doing in vr?"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Beep"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "emodog",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "It's me Luke, Loki's brother you can talk to me."
+		},
+		{
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Be- oh yeah sorry it's just been a while."
+		},
+		{
+			"speed": 0.05,
+			"portrait": "emodog",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Why are you in a dress?"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "angry",
+			"expression": "talk",
+			"text": "No idea but i look fabulous!!"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "emodog",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Well while ya here wanna sing a old shanty\\nyou and Loki made."
+		},
+		{
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Sure lets do it!"
+		}
+	]
+}

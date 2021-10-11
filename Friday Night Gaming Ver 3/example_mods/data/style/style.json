@@ -1,0 +1,53 @@
+{
+	"dialogue": [
+		{
+			"speed": 0.05,
+			"portrait": "portaits",
+			"boxState": "angry",
+			"expression": "talk",
+			"text": "WELCOME UP LUCKY- "
+		},
+		{
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Yo."
+		},
+		{
+			"speed": 0.05,
+			"portrait": "portaits",
+			"boxState": "normal",
+			"expression": "Talk",
+			"text": "BF, Is that you!? Its been a while, Im \\nshocked your the lucky contestant."
+		},
+		{
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Yep and hi Loki just got done rap battling your brother."
+		},
+		{
+			"speed": 0.05,
+			"portrait": "loki",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Luke's here that's amazing! Hopefully hes watching."
+		},
+		{
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "He said he was."
+		},
+		{
+			"speed": 0.05,
+			"portrait": "portaits",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "LETS DO THIS IM EXCITED ALREADY!!"
+		}
+	]
+}

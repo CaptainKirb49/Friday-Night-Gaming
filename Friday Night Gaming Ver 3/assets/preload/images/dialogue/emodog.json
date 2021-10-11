@@ -1,0 +1,37 @@
+{
+	"dialogue_pos": "left",
+	"position": [
+		-90,
+		-280
+	],
+	"scale": 0.75,
+	"animations": [
+		{
+			"anim": "talk",
+			"loop_offsets": [
+				0,
+				0
+			],
+			"idle_offsets": [
+				-1,
+				-11
+			],
+			"loop_name": "bftalkloop",
+			"idle_name": "BFTalk"
+		},
+		{
+			"loop_name": "Luke portait",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "",
+			"anim": "Talk",
+			"loop_offsets": [
+				0,
+				0
+			]
+		}
+	],
+	"image": "emo dog"
+}

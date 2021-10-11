@@ -1,0 +1,39 @@
+{
+	"dialogue": [
+		{
+			"speed": 0.05,
+			"portrait": "loki",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Nice! Video game music is the best."
+		},
+		{
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Yep!"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "By the way why is Rebecca outside your window?"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "loki",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "I dont know but all i know is that is her friend ash. She did get out the hospital a few days ago its nice to see her out."
+		},
+		{
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Wierd. Lets play the next game!"
+		}
+	]
+}

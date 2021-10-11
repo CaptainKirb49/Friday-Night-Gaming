@@ -1,0 +1,39 @@
+{
+	"dialogue": [
+		{
+			"speed": 0.05,
+			"portrait": "Loki",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "...and then he just died in the alley?"
+		},
+		{
+			"speed": 0.055,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Yeah it was crazy,he turned into a ghost and we rap battled!!"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "loki",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Oh stop making up stories."
+		},
+		{
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Trust me, its true!"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "loki",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Whatever you sayy broski, lets just start the co-op!"
+		}
+	]
+}

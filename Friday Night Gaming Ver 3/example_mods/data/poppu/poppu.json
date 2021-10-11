@@ -1,0 +1,53 @@
+{
+	"dialogue": [
+		{
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Your even better then I remembered!"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "portaits",
+			"boxState": "normal",
+			"expression": "Talk",
+			"text": "Yep,for the past few years Mrs. Mearst taught me everything I know."
+		},
+		{
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "You mean Mommy Mearest? Im dating her daughter."
+		},
+		{
+			"speed": 0.05,
+			"portrait": "loki",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Where is she anyways?"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "She logged off after she drowned."
+		},
+		{
+			"speed": 0.05,
+			"portrait": "loki",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Drowned?"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Yeah lets not talk about how lets just move on."
+		}
+	]
+}
