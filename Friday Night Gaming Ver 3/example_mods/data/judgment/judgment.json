@@ -2,38 +2,38 @@
 	"dialogue": [
 		{
 			"expression": "talk",
-			"text": "I remember that song you and loki sang \\n to impress some girl.",
+			"text": "I remember that song. You and Loki made it to impress some girl.",
 			"boxState": "normal",
-			"speed": 0.05,
-			"portrait": "emodog"
+			"portrait": "emodog",
+			"speed": 0.05
 		},
 		{
 			"expression": "talk",
 			"text": "Yeah im with her now her name is Girlfriend.\\nno idea where she is right now.",
 			"boxState": "normal",
-			"speed": 0.05,
-			"portrait": "bf"
+			"portrait": "bf",
+			"speed": 0.05
 		},
 		{
 			"expression": "talk",
 			"text": "She said she wanted to pet a fish in vr to see if it was like a real fish she should be back by now.",
 			"boxState": "normal",
-			"speed": 0.05,
-			"portrait": "bf"
+			"portrait": "bf",
+			"speed": 0.05
 		},
 		{
 			"expression": "talk",
 			"text": "Wanna sing another song, like the one we sang when I met you?\\n",
 			"boxState": "normal",
-			"speed": 0.05,
-			"portrait": "emodog"
+			"portrait": "emodog",
+			"speed": 0.05
 		},
 		{
 			"expression": "talk",
 			"text": "Heck Yeah!",
 			"boxState": "angry",
-			"speed": 0.05,
-			"portrait": "bf"
+			"portrait": "bf",
+			"speed": 0.05
 		}
 	]
 }

@@ -1,6 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<TextureAtlas imagePath="Loki_Portrait.png">
-	<!-- Created with Adobe Animate version 21.0.4.39603 -->
+<TextureAtlas imagePath="Loki portait.png">
+	<!-- Created with Adobe Animate version 21.0.7.42652 -->
 	<!-- http://www.adobe.com/products/animate.html -->
-	<SubTexture name="default0000" x="79" y="79" width="272" height="271"/>
+	<SubTexture name="loki portait0000" x="0" y="0" width="266" height="262" frameX="-2" frameY="0" frameWidth="270" frameHeight="262"/>
+	<SubTexture name="loki portait0001" x="266" y="0" width="270" height="262"/>
+	<SubTexture name="loki portait0002" x="536" y="0" width="268" height="262" frameX="-1" frameY="0" frameWidth="270" frameHeight="262"/>
+	<SubTexture name="loki portait0003" x="0" y="262" width="268" height="262" frameX="-1" frameY="0" frameWidth="270" frameHeight="262"/>
+	<SubTexture name="loki portait0004" x="268" y="262" width="262" height="262" frameX="-4" frameY="0" frameWidth="270" frameHeight="262"/>
 </TextureAtlas>

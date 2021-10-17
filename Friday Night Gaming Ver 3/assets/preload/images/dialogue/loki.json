@@ -1,10 +1,10 @@
 {
-	"dialogue_pos": "right",
+	"dialogue_pos": "left",
 	"position": [
-		-10,
+		140,
 		130
 	],
-	"scale": 1.3,
+	"scale": 1.2,
 	"animations": [
 		{
 			"anim": "talk",
@@ -16,22 +16,9 @@
 				-1,
 				-11
 			],
-			"loop_name": "bftalkloop",
-			"idle_name": "BFTalk"
-		},
-		{
-			"loop_name": "DOny portrait",
-			"idle_offsets": [
-				0,
-				0
-			],
-			"idle_name": "",
-			"anim": "Talk",
-			"loop_offsets": [
-				0,
-				0
-			]
+			"loop_name": "loki portait",
+			"idle_name": ""
 		}
 	],
-	"image": "Loki_portrait"
+	"image": "loki_portrait"
 }

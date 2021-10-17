@@ -1,46 +1,46 @@
 {
 	"dialogue": [
 		{
-			"speed": 0.05,
-			"portrait": "loki",
-			"boxState": "normal",
 			"expression": "talk",
-			"text": "Im getting tired."
+			"text": "Im getting tired.",
+			"boxState": "normal",
+			"speed": 0.05,
+			"portrait": "loki"
 		},
 		{
-			"speed": 0.05,
-			"portrait": "bf",
-			"boxState": "normal",
 			"expression": "talk",
-			"text": "Ok then how about one last game."
+			"text": "Ok then how about one last game.",
+			"boxState": "normal",
+			"speed": 0.05,
+			"portrait": "bf"
 		},
 		{
-			"speed": 0.05,
-			"portrait": "loki",
-			"boxState": "normal",
 			"expression": "talk",
-			"text": "Ok I can do one more."
+			"text": "Ok I can do one more.",
+			"boxState": "normal",
+			"speed": 0.05,
+			"portrait": "loki"
 		},
 		{
-			"speed": 0.05,
-			"portrait": "loki",
+			"expression": "talk",
+			"text": "Ima beat ya this time!",
 			"boxState": "angry",
-			"expression": "talk",
-			"text": "Ima beat ya this time!"
-		},
-		{
 			"speed": 0.05,
-			"portrait": "bf",
-			"boxState": "angry",
-			"expression": "talk",
-			"text": "Oh really little ol you is gonna beat me !!!"
+			"portrait": "loki"
 		},
 		{
+			"expression": "talk",
+			"text": "Oh really little ol you is gonna beat me !!!\\nThat would be neat trick!",
+			"boxState": "angry",
+			"speed": 0.05,
+			"portrait": "bf"
+		},
+		{
+			"expression": "talk",
+			"text": "Lets G A M E O N then",
+			"boxState": "angry",
 			"speed": 0.12,
-			"portrait": "loki",
-			"boxState": "angry",
-			"expression": "talk",
-			"text": "lets G A M E O N then"
+			"portrait": "loki"
 		}
 	]
 }

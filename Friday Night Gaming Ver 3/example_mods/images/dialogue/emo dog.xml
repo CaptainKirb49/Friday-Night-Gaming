@@ -1,10 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<TextureAtlas imagePath="Untitled-1.png">
+<TextureAtlas imagePath="emodog.png">
 	<!-- Created with Adobe Animate version 21.0.7.42652 -->
 	<!-- http://www.adobe.com/products/animate.html -->
 	<SubTexture name="Luke portait0000" x="0" y="0" width="612" height="1014"/>
 	<SubTexture name="Luke portait0001" x="612" y="0" width="612" height="1014"/>
 	<SubTexture name="Luke portait0002" x="1224" y="0" width="612" height="1014"/>
 	<SubTexture name="Luke portait0003" x="0" y="1014" width="612" height="1014"/>
-	<SubTexture name="Luke portait0004" x="0" y="1014" width="612" height="1014"/>
+	<SubTexture name="Luke portait0004" x="612" y="1014" width="612" height="1014"/>
+	<SubTexture name="Luke portait0005" x="1224" y="1014" width="612" height="1014"/>
+	<SubTexture name="Luke portait0006" x="1224" y="1014" width="612" height="1014"/>
 </TextureAtlas>

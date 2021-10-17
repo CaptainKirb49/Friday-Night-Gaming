@@ -1,53 +1,53 @@
 {
 	"dialogue": [
 		{
-			"speed": 0.05,
-			"portrait": "bf",
-			"boxState": "normal",
 			"expression": "talk",
-			"text": "So hows Dony?"
+			"text": "So hows Dony?",
+			"boxState": "normal",
+			"speed": 0.05,
+			"portrait": "bf"
 		},
 		{
-			"speed": 0.05,
-			"portrait": "loki",
-			"boxState": "normal",
 			"expression": "talk",
-			"text": "Hes doing good hes back to being the number 1 popstar"
+			"text": "Hes doing good hes back to being the number 1 popstar",
+			"boxState": "normal",
+			"speed": 0.05,
+			"portrait": "loki"
 		},
 		{
-			"speed": 0.05,
-			"portrait": "bf",
-			"boxState": "normal",
 			"expression": "talk",
-			"text": "Wow he must be super popular now !"
+			"text": "Wow he must be super popular now !",
+			"boxState": "normal",
+			"speed": 0.05,
+			"portrait": "bf"
 		},
 		{
-			"speed": 0.05,
-			"portrait": "loki",
+			"expression": "talk",
+			"text": "HELL YEAH HE IS AND IM SO PROUD!!",
 			"boxState": "angry",
-			"expression": "talk",
-			"text": "HELL YEAH HE IS AND IM SO PROUD!!"
+			"speed": 0.05,
+			"portrait": "loki"
 		},
 		{
-			"speed": 0.05,
-			"portrait": "bf",
+			"expression": "talk",
+			"text": "AY how about we stay up all night!",
 			"boxState": "normal",
-			"expression": "talk",
-			"text": "AY how about we stay up all night!"
+			"speed": 0.05,
+			"portrait": "bf"
 		},
 		{
-			"speed": 0.05,
-			"portrait": "loki",
+			"expression": "talk",
+			"text": "LETS DO IT!!!!",
 			"boxState": "angry",
-			"expression": "talk",
-			"text": "LETS DO IT!!!!"
+			"speed": 0.05,
+			"portrait": "loki"
 		},
 		{
-			"speed": 0.05,
-			"portrait": "bf",
-			"boxState": "normal",
 			"expression": "talk",
-			"text": "Ok ok calm down."
+			"text": "HELL YEAH",
+			"boxState": "normal",
+			"speed": 0.05,
+			"portrait": "bf"
 		}
 	]
 }
