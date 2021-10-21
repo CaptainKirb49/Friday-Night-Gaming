@@ -19,6 +19,8 @@ import flixel.util.FlxColor;
 import lime.app.Application;
 import Achievements;
 import editors.MasterEditorMenu;
+import flixel.util.FlxTimer;
+
 
 using StringTools;
 
@@ -31,14 +33,17 @@ class MainMenuState extends MusicBeatState
 	private var camGame:FlxCamera;
 	private var camAchievement:FlxCamera;
 	
-	var optionShit:Array<String> = ['story_mode', 'freeplay', #if ACHIEVEMENTS_ALLOWED 'awards', #end 'credits', 'options'];
+	var optionShit:Array<String> = ['story_mode', 'freeplay', 'credits', 'options', 'gallery'];
 
 	var magenta:FlxSprite;
 	var camFollow:FlxObject;
 	var camFollowPos:FlxObject;
+	var menuItem:FlxSprite;
 
 	override function create()
 	{
+	
+
 		#if desktop
 		// Updating Discord Rich Presence
 		DiscordClient.changePresence("In the Menus", null);
@@ -57,12 +62,11 @@ class MainMenuState extends MusicBeatState
 
 		persistentUpdate = persistentDraw = true;
 
-		var yScroll:Float = Math.max(0.25 - (0.05 * (optionShit.length - 4)), 0.1);
-		var bg:FlxSprite = new FlxSprite(-80).loadGraphic(Paths.image('menuBG'));
+		//var yScroll:Float = Math.max(0.25 - (0.05 * (optionShit.length - 4)), 0.1);
+		var bg:FlxSprite = new FlxSprite(-800, -450).loadGraphic(Paths.image('menuBG'));
 		// bg.scrollFactor.set(0, yScroll);
-		bg.setGraphicSize(Std.int(bg.width * 1.175));
+		bg.setGraphicSize(Std.int(bg.width * 0.5));
 		bg.updateHitbox();
-		bg.screenCenter();
 		bg.antialiasing = ClientPrefs.globalAntialiasing;
 		add(bg);
 
@@ -85,42 +89,65 @@ class MainMenuState extends MusicBeatState
 		menuItems = new FlxTypedGroup<FlxSprite>();
 		add(menuItems);
 
-		// var storyMenu = new FlxSprite(0, 0);
-		// storyMenu.animation.addByPrefix('idle', "menu story0", 24);
-		// storyMenu.animation.play('idle');
-		// add(storyMenu);
-
-		// var freeplayMenu = new FlxSprite(200, 0);
-		// freeplayMenu.animation.addByPrefix('idle', "menu freeplay0", 24);
-		// freeplayMenu.animation.play('idle');
-		// add(freeplayMenu);
-
-		// var creditsMenu = new FlxSprite(0, -200);
-		// creditsMenu.animation.addByPrefix('idle', "menu credits0", 24);
-		// creditsMenu.animation.play('idle');
-		// add(creditsMenu);
-
-		// var optionsMenu = new FlxSprite(200, -200);
-		// optionsMenu.animation.addByPrefix('idle', "menu options0", 24);
-		// optionsMenu.animation.play('idle');
-		// add(optionsMenu);
+		//var storyMenu = new FlxSprite(0, 0);
+		//storyMenu.animation.addByPrefix('idle', "menu story0", 24);
+		//storyMenu.animation.play('idle');
+		//add(storyMenu);
+//
+		//var freeplayMenu = new FlxSprite(200, 0);
+		//freeplayMenu.animation.addByPrefix('idle', "menu freeplay0", 24);
+		//freeplayMenu.animation.play('idle');
+		//add(freeplayMenu);
+//
+		//var creditsMenu = new FlxSprite(0, -200);
+		//creditsMenu.animation.addByPrefix('idle', "menu credits0", 24);
+		//creditsMenu.animation.play('idle');
+		//add(creditsMenu);
+//
+		//var optionsMenu = new FlxSprite(200, -200);
+		//optionsMenu.animation.addByPrefix('idle', "menu options0", 24);
+		//optionsMenu.animation.play('idle');
+		//add(optionsMenu);
 
 		for (i in 0...optionShit.length)
 		{
+
+			
 			var offset:Float = 108 - (Math.max(optionShit.length, 4) - 4) * 80;
-			var menuItem:FlxSprite = new FlxSprite(0, (i * 140)  + offset);
+			var menuItem:FlxSprite = new FlxSprite(15 + (i * 40), 100);
 			menuItem.frames = Paths.getSparrowAtlas('mainmenu/menu_' + optionShit[i]);
+			menuItem.animation.addByPrefix('still', "still", 24);
 			menuItem.animation.addByPrefix('idle', "basic", 24);
-			// menuItem.animation.play('idle');
+			
+			menuItem.animation.play('still');
+			
 			menuItem.ID = i;
-			menuItem.screenCenter(X);
 			menuItems.add(menuItem);
 			var scr:Float = (optionShit.length - 4) * 0.135;
 			if(optionShit.length < 6) scr = 0;
-			menuItem.scrollFactor.set(0, scr);
+			menuItem.scrollFactor.set(0, 0);
 			menuItem.antialiasing = ClientPrefs.globalAntialiasing;
-			menuItem.setGraphicSize(Std.int(menuItem.width * 0.3));
+			menuItem.setGraphicSize(Std.int(menuItem.width * 0.35));
 			menuItem.updateHitbox();
+
+			switch (i) 
+			{
+				case 0:
+					menuItem.x += 250;
+					menuItem.y -= 0;
+				case 1:
+					menuItem.x += 500;
+					menuItem.y += 20;
+				case 2:
+					menuItem.x = 840;
+					menuItem.y += 20;
+				case 3:
+					menuItem.x += 260;
+					menuItem.y += 260;
+				case 4:
+					menuItem.x += 500;
+					menuItem.y += 260;
+			}
 		}
 
 		FlxG.camera.follow(camFollowPos, null, 1);
@@ -173,20 +200,23 @@ class MainMenuState extends MusicBeatState
 		var lerpVal:Float = CoolUtil.boundTo(elapsed * 5.6, 0, 1);
 		camFollowPos.setPosition(FlxMath.lerp(camFollowPos.x, camFollow.x, lerpVal), FlxMath.lerp(camFollowPos.y, camFollow.y, lerpVal));
 
+
+		
 		if (!selectedSomethin)
 		{
-			if (controls.UI_UP_P)
+
+			if (controls.UI_LEFT_P)
 			{
 				FlxG.sound.play(Paths.sound('scrollMenu'));
 				changeItem(-1);
 			}
 
-			if (controls.UI_DOWN_P)
+			if (controls.UI_RIGHT_P)
 			{
 				FlxG.sound.play(Paths.sound('scrollMenu'));
 				changeItem(1);
 			}
-
+	
 			if (controls.BACK)
 			{
 				selectedSomethin = true;
@@ -237,6 +267,8 @@ class MainMenuState extends MusicBeatState
 										MusicBeatState.switchState(new CreditsState());
 									case 'options':
 										MusicBeatState.switchState(new OptionsState());
+									case 'gallery':
+										MusicBeatState.switchState(new GalleryState());
 								}
 							});
 						}
@@ -256,7 +288,7 @@ class MainMenuState extends MusicBeatState
 
 		menuItems.forEach(function(spr:FlxSprite)
 		{
-			spr.screenCenter(X);
+			//spr.screenCenter(Y);
 		});
 	}
 
@@ -272,17 +304,21 @@ class MainMenuState extends MusicBeatState
 		menuItems.forEach(function(spr:FlxSprite)
 		{
 			// spr.animation.play('idle');
-			spr.offset.y = 0;
+			//spr.offset.y = 0;
 			spr.updateHitbox();
 			spr.animation.stop();
 
 			if (spr.ID == curSelected)
 			{
 				spr.animation.play('idle');
-				camFollow.setPosition(spr.getGraphicMidpoint().x, spr.getGraphicMidpoint().y);
-				spr.offset.x = 0.15 * (spr.frameWidth / 2 + 180);
-				spr.offset.y = 0.15 * spr.frameHeight;
+				//camFollow.setPosition(spr.getGraphicMidpoint().x, spr.getGraphicMidpoint().y);
+				//spr.offset.x = 35 * (spr.frameWidth / 2 + 180);
+				//spr.offset.y = 0.15 * spr.frameHeight;
 				FlxG.log.add(spr.frameWidth);
+			}
+			else
+			{
+				spr.animation.play('still');
 			}
 		});
 	}

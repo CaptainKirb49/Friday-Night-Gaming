@@ -33,7 +33,16 @@ class CoolUtil
 		else if(newValue > max) newValue = max;
 		return newValue;
 	}
-
+	
+	public static function reverseString(string:String):String
+		{
+			var newString:StringBuf = new StringBuf();
+			for (i in -string.length+1...1) 
+				newString.addChar(string.fastCodeAt(-i));
+		
+			return string = newString.toString();
+		}
+		
 	public static function coolTextFile(path:String):Array<String>
 	{
 		var daList:Array<String> = [];

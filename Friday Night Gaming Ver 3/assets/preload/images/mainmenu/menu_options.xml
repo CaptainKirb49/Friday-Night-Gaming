@@ -1,5 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
-<TextureAtlas imagePath="menu_options.png"><SubTexture name="menu optionsbase0000" x="0" y="0" width="628" height="492" frameX="0" frameY="0" frameWidth="628" frameHeight="492" />
+<TextureAtlas imagePath="menu_options.png">
+<SubTexture name="still0000" x="0" y="0" width="628" height="492" frameX="0" frameY="0" frameWidth="628" frameHeight="492" />
 <SubTexture name="basic0000" x="628" y="0" width="628" height="492" frameX="0" frameY="0" frameWidth="628" frameHeight="492" />
 <SubTexture name="basic0001" x="1256" y="0" width="628" height="492" frameX="0" frameY="0" frameWidth="628" frameHeight="492" />
 <SubTexture name="basic0002" x="1884" y="0" width="628" height="492" frameX="0" frameY="0" frameWidth="628" frameHeight="492" />
