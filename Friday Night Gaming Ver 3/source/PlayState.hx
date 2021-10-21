@@ -198,10 +198,10 @@ class PlayState extends MusicBeatState
 	var fastCar:BGSprite;
 	var bg1:BGSprite;
 	var bg2:BGSprite;
-	var bg3:BGSprite;
+	public var bg3:BGSprite;
 	var bg4:BGSprite;
 	var bg5:BGSprite;
-
+	public var crowd:BGSprite;
 	var upperBoppers:BGSprite;
 	var bottomBoppers:BGSprite;
 	var santa:BGSprite;
@@ -252,6 +252,7 @@ class PlayState extends MusicBeatState
 
 	override public function create()
 	{
+		
 		#if MODS_ALLOWED
 		Paths.destroyLoadedImages();
 		#end
@@ -362,6 +363,8 @@ class PlayState extends MusicBeatState
 				add(bois);
 
 			case 'starStage':
+
+			    defaultCamZoom = 0.88;
 				var bg5:BGSprite = new BGSprite('bg5', -600, -200);
 				bg5.setGraphicSize(Std.int(bg5.width * 0.5));
 				add(bg5);
@@ -370,7 +373,7 @@ class PlayState extends MusicBeatState
 				bg4.setGraphicSize(Std.int(bg4.width * 0.5));
 				add(bg4);
 
-				var bg3:BGSprite = new BGSprite('bg3', -600, -200);
+				bg3 = new BGSprite('flash', -600, -200, ['idle'], true, 1);
 				bg3.setGraphicSize(Std.int(bg3.width * 0.5));
 				add(bg3);
 
@@ -381,6 +384,10 @@ class PlayState extends MusicBeatState
 				var bg1:BGSprite = new BGSprite('bg1', -600, -200);
 				bg1.setGraphicSize(Std.int(bg1.width * 0.5));
 				add(bg1);
+
+				crowd = new BGSprite('cameos', -600, -190);
+				crowd.setGraphicSize(Std.int(bg1.width * 0.5));
+				add(crowd);
 
 			case 'stage': //Week 1
 				var bg:BGSprite = new BGSprite('stageback', -600, -200, 0.9, 0.9);
@@ -406,6 +413,7 @@ class PlayState extends MusicBeatState
 					stageCurtains.setGraphicSize(Std.int(stageCurtains.width * 0.9));
 					stageCurtains.updateHitbox();
 					add(stageCurtains);
+
 				}
 
 			case 'spooky': //Week 2
@@ -2390,6 +2398,8 @@ class PlayState extends MusicBeatState
 						daNote.destroy();
 					}
 				}
+				
+				
 
 				if(daNote.mustPress && cpuControlled) {
 					if(daNote.isSustainNote) {
@@ -3713,7 +3723,7 @@ class PlayState extends MusicBeatState
 			}
 		}
 
-		if(ClientPrefs.flashing) {
+		if(ClientPrefs.flashing && FlxG.save.data.flashing != null) {
 			halloweenWhite.alpha = 0.45;
 			FlxTween.tween(halloweenWhite, {alpha: 0.6}, 0.075);
 			FlxTween.tween(halloweenWhite, {alpha: 0}, 0.25, {startDelay: 0.15});
@@ -3873,6 +3883,15 @@ class PlayState extends MusicBeatState
 
 		switch (curStage)
 		{
+			case 'starStage':
+
+			    
+			
+			    if (ClientPrefs.flashing = true && FlxG.save.data.flashing != null) // This no workie
+				{
+					bg3.dance();
+				}
+
 			case 'school':
 				if(!ClientPrefs.lowQuality) {
 					bgGirls.dance();
