@@ -440,24 +440,8 @@
 						"Play Animation",
 						"singUP-alt",
 						"0"
-					],
-					[
-						70593.75,
-						-1,
-						"Add Camera Zoom",
-						"0.015",
-						"0.03"
 					]
 				],
-				"bpm": 0,
-				"changeBPM": false,
-				"mustHitSection": false
-			},
-			{
-				"lengthInSteps": 16,
-				"altAnim": false,
-				"typeOfSection": 0,
-				"sectionNotes": [],
 				"bpm": 0,
 				"changeBPM": false,
 				"mustHitSection": false
