@@ -2,17 +2,18 @@
 	"storyName": "Secret",
 	"hideFreeplay": false,
 	"weekBackground": "",
-	"weekBefore": "week3",
 	"freeplayColor": [
 		146,
 		113,
 		253
 	],
+	"weekBefore": "week3",
 	"startUnlocked": false,
+	"hideStoryMode": false,
 	"weekCharacters": [
-		"",
-		"",
-		""
+		"dony",
+		"gf",
+		"bf"
 	],
 	"songs": [
 		[
@@ -32,17 +33,7 @@
 				113,
 				253
 			]
-		],
-		[
-			"clava el espada",
-			"dad",
-			[
-				146,
-				113,
-				253
-			]
 		]
 	],
-	"hideStoryMode": true,
 	"weekName": "Secret"
 }
