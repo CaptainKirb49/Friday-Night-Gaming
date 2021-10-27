@@ -4,36 +4,36 @@
 			"expression": "talk",
 			"text": "Ok thats it for me.",
 			"boxState": "normal",
-			"speed": 0.05,
-			"portrait": "bf"
+			"portrait": "bf",
+			"speed": 0.05
 		},
 		{
 			"expression": "talk",
-			"text": "Come on one more song to go off with a banger",
+			"text": "Come on una ultima vezws!!",
 			"boxState": "angry",
-			"speed": 0.05,
-			"portrait": "portaits"
+			"portrait": "portaits",
+			"speed": 0.05
 		},
 		{
 			"expression": "talk",
 			"text": "Ok ok Lets do this one more song !",
 			"boxState": "normal",
-			"speed": 0.05,
-			"portrait": "bf"
+			"portrait": "bf",
+			"speed": 0.05
 		},
 		{
 			"expression": "talk",
-			"text": "Im gonna go all OUT!!!",
+			"text": "ESTA VEZ IRE EN SERIO!!!",
 			"boxState": "angry",
-			"speed": 0.05,
-			"portrait": "portaits"
+			"portrait": "portaits",
+			"speed": 0.05
 		},
 		{
 			"expression": "talk",
 			"text": "BRING IT DONY!!",
 			"boxState": "angry",
-			"speed": 0.05,
-			"portrait": "bf"
+			"portrait": "bf",
+			"speed": 0.05
 		}
 	]
 }

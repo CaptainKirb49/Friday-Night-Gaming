@@ -1,53 +1,53 @@
 {
 	"dialogue": [
 		{
-			"speed": 0.05,
-			"portrait": "portaits",
+			"expression": "talk",
+			"text": "WELCOME UP LUCKY- ",
 			"boxState": "angry",
-			"expression": "talk",
-			"text": "WELCOME UP LUCKY- "
+			"speed": 0.05,
+			"portrait": "portaits"
 		},
 		{
-			"speed": 0.05,
-			"portrait": "bf",
-			"boxState": "normal",
 			"expression": "talk",
-			"text": "Yo."
+			"text": "Yo.",
+			"boxState": "normal",
+			"speed": 0.05,
+			"portrait": "bf"
 		},
 		{
-			"speed": 0.05,
-			"portrait": "portaits",
-			"boxState": "normal",
 			"expression": "Talk",
-			"text": "BF, Is that you!? Its been a while, Im \\nshocked your the lucky contestant."
+			"text": "BF, Is that you!? Its been a while, Im \\nshocked your the lucky contestant.",
+			"boxState": "normal",
+			"speed": 0.05,
+			"portrait": "portaits"
 		},
 		{
-			"speed": 0.05,
-			"portrait": "bf",
-			"boxState": "normal",
 			"expression": "talk",
-			"text": "Yep and hi Loki just got done rap battling your brother."
+			"text": "Yep and hi Loki just got done rap battling your brother.",
+			"boxState": "normal",
+			"speed": 0.05,
+			"portrait": "bf"
 		},
 		{
-			"speed": 0.05,
-			"portrait": "loki",
-			"boxState": "normal",
 			"expression": "talk",
-			"text": "Luke's here that's amazing! Hopefully hes watching."
+			"text": "Luke's here that's amazing! Hopefully hes watching.",
+			"boxState": "normal",
+			"speed": 0.05,
+			"portrait": "loki"
 		},
 		{
-			"speed": 0.05,
-			"portrait": "bf",
-			"boxState": "normal",
 			"expression": "talk",
-			"text": "He said he was."
+			"text": "He said he was.",
+			"boxState": "normal",
+			"speed": 0.05,
+			"portrait": "bf"
 		},
 		{
-			"speed": 0.05,
-			"portrait": "portaits",
-			"boxState": "normal",
 			"expression": "talk",
-			"text": "LETS DO THIS IM EXCITED ALREADY!!"
+			"text": "Estoy muy emocionado!!",
+			"boxState": "angry",
+			"speed": 0.05,
+			"portrait": "portaits"
 		}
 	]
 }

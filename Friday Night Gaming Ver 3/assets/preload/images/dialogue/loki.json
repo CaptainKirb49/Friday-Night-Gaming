@@ -1,24 +1,24 @@
 {
-	"dialogue_pos": "left",
 	"position": [
-		140,
+		150,
 		130
 	],
-	"scale": 1.2,
+	"dialogue_pos": "left",
+	"scale": 1.5,
+	"image": "loki_portrait",
 	"animations": [
 		{
-			"anim": "talk",
-			"loop_offsets": [
-				0,
-				0
-			],
 			"idle_offsets": [
 				-1,
 				-11
 			],
-			"loop_name": "loki portait",
-			"idle_name": ""
+			"loop_offsets": [
+				0,
+				0
+			],
+			"anim": "talk",
+			"idle_name": "",
+			"loop_name": "loki portait"
 		}
-	],
-	"image": "loki_portrait"
+	]
 }
