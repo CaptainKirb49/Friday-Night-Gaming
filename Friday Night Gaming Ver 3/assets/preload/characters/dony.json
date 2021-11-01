@@ -1,59 +1,59 @@
 {
 	"animations": [
 		{
-			"loop": false,
 			"offsets": [
 				-205,
 				157
 			],
-			"anim": "idle",
+			"loop": false,
 			"fps": 24,
-			"name": "idle donny0",
-			"indices": []
+			"anim": "idle",
+			"indices": [],
+			"name": "idle donny0"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				-178,
 				154
 			],
-			"anim": "singLEFT",
+			"loop": false,
 			"fps": 24,
-			"name": "left donny0",
-			"indices": []
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "left donny0"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				-250,
 				130
 			],
-			"anim": "singDOWN",
+			"loop": false,
 			"fps": 24,
-			"name": "down donny0",
-			"indices": []
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "down donny0"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				-229,
 				188
 			],
-			"anim": "singUP",
+			"loop": false,
 			"fps": 24,
-			"name": "up donny0",
-			"indices": []
+			"anim": "singUP",
+			"indices": [],
+			"name": "up donny0"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				-97,
 				75
 			],
-			"anim": "singRIGHT",
+			"loop": false,
 			"fps": 24,
-			"name": "right donny0",
-			"indices": []
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "right donny0"
 		}
 	],
 	"no_antialiasing": false,
@@ -71,7 +71,7 @@
 	],
 	"camera_position": [
 		120,
-		-100
+		-20
 	],
 	"sing_duration": 4,
 	"scale": 1
