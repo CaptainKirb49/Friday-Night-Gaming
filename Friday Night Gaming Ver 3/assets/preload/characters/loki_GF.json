@@ -2,8 +2,8 @@
 	"animations": [
 		{
 			"offsets": [
-				4,
-				2
+				-6,
+				-378
 			],
 			"loop": false,
 			"anim": "cheer",
@@ -13,8 +13,8 @@
 		},
 		{
 			"offsets": [
-				0,
-				-19
+				-231,
+				-365
 			],
 			"loop": false,
 			"anim": "singLEFT",
@@ -24,8 +24,8 @@
 		},
 		{
 			"offsets": [
-				0,
-				-20
+				-230,
+				-377
 			],
 			"loop": false,
 			"anim": "singDOWN",
@@ -35,8 +35,8 @@
 		},
 		{
 			"offsets": [
-				0,
-				4
+				-230,
+				-366
 			],
 			"loop": false,
 			"anim": "singUP",
@@ -46,8 +46,8 @@
 		},
 		{
 			"offsets": [
-				0,
-				-20
+				-229,
+				-361
 			],
 			"loop": false,
 			"anim": "singRIGHT",
@@ -57,8 +57,8 @@
 		},
 		{
 			"offsets": [
-				1,
-				-377
+				-230,
+				-358
 			],
 			"loop": false,
 			"anim": "sad",
@@ -137,8 +137,8 @@
 		},
 		{
 			"offsets": [
-				45,
-				-8
+				5,
+				-377
 			],
 			"loop": true,
 			"anim": "hairBlow",
@@ -154,7 +154,7 @@
 		{
 			"offsets": [
 				0,
-				-9
+				-369
 			],
 			"loop": false,
 			"anim": "hairFall",
@@ -178,7 +178,7 @@
 		{
 			"offsets": [
 				-2,
-				-17
+				-377
 			],
 			"loop": true,
 			"anim": "scared",
@@ -191,7 +191,7 @@
 	"image": "characters/loki_GF",
 	"position": [
 		560,
-		-122
+		-102
 	],
 	"healthicon": "gf",
 	"flip_x": false,
@@ -201,8 +201,8 @@
 		77
 	],
 	"camera_position": [
-		260,
-		520
+		240,
+		670
 	],
 	"sing_duration": 4,
 	"scale": 0.5
