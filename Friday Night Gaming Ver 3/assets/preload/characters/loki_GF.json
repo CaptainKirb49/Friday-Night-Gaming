@@ -13,8 +13,8 @@
 		},
 		{
 			"offsets": [
-				-231,
-				-365
+				-228,
+				-364
 			],
 			"loop": false,
 			"anim": "singLEFT",
@@ -24,8 +24,8 @@
 		},
 		{
 			"offsets": [
-				-230,
-				-377
+				-228,
+				-381
 			],
 			"loop": false,
 			"anim": "singDOWN",
@@ -35,8 +35,8 @@
 		},
 		{
 			"offsets": [
-				-230,
-				-366
+				-228,
+				-372
 			],
 			"loop": false,
 			"anim": "singUP",
@@ -46,8 +46,8 @@
 		},
 		{
 			"offsets": [
-				-229,
-				-361
+				-228,
+				-367
 			],
 			"loop": false,
 			"anim": "singRIGHT",
@@ -82,8 +82,8 @@
 		},
 		{
 			"offsets": [
-				-4,
-				-377
+				-3,
+				-381
 			],
 			"loop": false,
 			"anim": "danceLeft",
@@ -111,7 +111,7 @@
 		{
 			"offsets": [
 				-3,
-				-377
+				-381
 			],
 			"loop": false,
 			"anim": "danceRight",
@@ -137,7 +137,7 @@
 		},
 		{
 			"offsets": [
-				5,
+				3,
 				-377
 			],
 			"loop": true,
@@ -153,8 +153,8 @@
 		},
 		{
 			"offsets": [
-				0,
-				-369
+				-1,
+				-370
 			],
 			"loop": false,
 			"anim": "hairFall",
@@ -190,15 +190,15 @@
 	"no_antialiasing": false,
 	"image": "characters/loki_GF",
 	"position": [
-		560,
-		-102
+		710,
+		-32
 	],
-	"healthicon": "gf",
+	"healthicon": "icon_loki",
 	"flip_x": false,
 	"healthbar_colors": [
-		165,
 		0,
-		77
+		255,
+		255
 	],
 	"camera_position": [
 		240,

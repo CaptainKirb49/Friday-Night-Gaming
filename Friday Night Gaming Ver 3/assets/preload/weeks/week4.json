@@ -2,13 +2,18 @@
 	"storyName": "Secret",
 	"hideFreeplay": false,
 	"weekBackground": "",
-	"weekBefore": "week3",
 	"freeplayColor": [
 		146,
 		113,
 		253
 	],
+	"weekBefore": "week3",
 	"startUnlocked": false,
+	"weekCharacters": [
+		"dony",
+		"gf",
+		"bf"
+	],
 	"songs": [
 		[
 			"bass",
@@ -30,19 +35,14 @@
 		],
 		[
 			"heartbass",
-			"dad",
+			"icon_dony",
 			[
-				146,
-				113,
-				253
+				240,
+				155,
+				0
 			]
 		]
 	],
 	"hideStoryMode": false,
-	"weekCharacters": [
-		"dony",
-		"gf",
-		"bf"
-	],
 	"weekName": "Secret"
 }
