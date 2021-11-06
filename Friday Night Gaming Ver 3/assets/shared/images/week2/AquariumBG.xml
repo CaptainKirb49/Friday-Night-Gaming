@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="AquariumBG.png">
+	<!-- Created with Adobe Animate version 19.2.1.408 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Aqua BG0000" x="0" y="0" width="3625" height="2320" frameX="0" frameY="-90" frameWidth="3625" frameHeight="2410"/>
+	<SubTexture name="Aqua BG0001" x="3625" y="0" width="3625" height="2320" frameX="0" frameY="-90" frameWidth="3625" frameHeight="2410"/>
+	<SubTexture name="Aqua BG0002" x="0" y="2320" width="3625" height="2320" frameX="0" frameY="-90" frameWidth="3625" frameHeight="2410"/>
+	<SubTexture name="Aqua BG0003" x="3625" y="2320" width="3625" height="2320" frameX="0" frameY="-90" frameWidth="3625" frameHeight="2410"/>
+	<SubTexture name="Aqua BG0004" x="0" y="4640" width="3625" height="2320" frameX="0" frameY="-90" frameWidth="3625" frameHeight="2410"/>
+	<SubTexture name="Aqua BG0005" x="3625" y="4640" width="3625" height="2410"/>
+</TextureAtlas>

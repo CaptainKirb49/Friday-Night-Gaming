@@ -210,7 +210,7 @@ class PlayState extends MusicBeatState
 	var bgGirls:BackgroundGirls;
 	var wiggleShit:WiggleEffect = new WiggleEffect();
 	var bgGhouls:BGSprite;
-	var bois:BGSprite;
+	var bga:BGSprite;
 
 	public var songScore:Int = 0;
 	public var songHits:Int = 0;
@@ -358,11 +358,14 @@ class PlayState extends MusicBeatState
 				add(bg);
 
 			case 'plaza':
-				var bg:BGSprite = new BGSprite('together', -600, -200, 0.9, 0.9);
-				add(bg);
 
-				bois = new BGSprite('TheBOYS', -600, -200, 0.9, 0.9, ['The BOYS0'], true);
-				add(bois);
+			    defaultCamZoom = 0.75;
+
+				bga = new BGSprite('week2/AquariumBG', -1200, -800, ['Aqua BG'], false, 24);
+				
+				bga.setGraphicSize(Std.int(bga.width * 0.73));
+
+				add(bga);
 
 			case 'starStage':
 
@@ -3886,13 +3889,14 @@ class PlayState extends MusicBeatState
 		switch (curStage)
 		{
 			case 'starStage':
-
-			    
-			
-			    if (ClientPrefs.flashing = true && FlxG.save.data.flashing != null) // This no workie
+			    if (ClientPrefs.flashing = true && FlxG.save.data.flashing != false) // This no workie
 				{
 					bg3.dance();
 				}
+
+			case 'plaza':
+				bga.dance();
+			    
 
 			case 'school':
 				if(!ClientPrefs.lowQuality) {
