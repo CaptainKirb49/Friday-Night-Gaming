@@ -19,6 +19,7 @@ class GalleryState extends MusicBeatState
         // first parameter is the image path, second one is the description, third one is the name
         // images must be in assets/preload/images/
         new GalleryImage('gallery/E/E1', 'E1', 'E1'),
+        new GalleryImage('gallery/other/vibin', 'Loki Fanart', 'vibe'),
         new GalleryImage('gallery/E/E2', 'What da dog doin?', 'E2'),
         new GalleryImage('gallery/millie/millie1', 'Millie 1', 'millie1'),
         new GalleryImage('gallery/millie/millie2', 'Surprise ;P', 'millie2'),
@@ -29,6 +30,8 @@ class GalleryState extends MusicBeatState
         new GalleryImage('gallery/scooter/scooter2', 'Thumbnail Concept Art', 'ca'),
         new GalleryImage('gallery/other/sus', 'The original week 2 bf concept art', 'bf sus'),
         new GalleryImage('gallery/other/stfu', 'STFU!!, im gaming', 'gamer')
+        new GalleryImage('gallery/other/gay', 'Kinda Gay', 'gay')
+        new GalleryImage('gallery/other/Thumbnail2', 'Thumbnail', 'thumb2')
     ];
 
     var image:FlxSprite;

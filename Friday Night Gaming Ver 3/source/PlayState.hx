@@ -353,7 +353,7 @@ class PlayState extends MusicBeatState
 				add(bg);
 
 			case 'gamer2':
-				var bg:BGSprite = new BGSprite('250', -600, -200, 0.9, 0.9);
+				var bg:BGSprite = new BGSprite('250', -600, -200, 1, 1);
 				bg.setGraphicSize(Std.int(bg.width * 0.65));
 				add(bg);
 
