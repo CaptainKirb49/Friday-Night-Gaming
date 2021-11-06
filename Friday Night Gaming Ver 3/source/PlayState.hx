@@ -346,7 +346,9 @@ class PlayState extends MusicBeatState
 		switch (curStage)
 		{
 			case 'gamer1':
-				var bg:BGSprite = new BGSprite('251', -600, -200, 0.9, 0.9);
+				
+			    defaultCamZoom = 0.8;
+				var bg:BGSprite = new BGSprite('251', -600, -200, 1, 1);
 				bg.setGraphicSize(Std.int(bg.width * 0.65));
 				add(bg);
 
