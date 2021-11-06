@@ -2,38 +2,38 @@
 	"dialogue": [
 		{
 			"expression": "talk",
-			"text": "Ok thats it for me.",
+			"text": "Ok thats it for me I have to go find Gf so we can go find a cave, I heard its super rare?",
 			"boxState": "normal",
-			"portrait": "bf",
-			"speed": 0.05
+			"speed": 0.05,
+			"portrait": "bf"
 		},
 		{
 			"expression": "talk",
 			"text": "Come on una ultima vezws!!",
 			"boxState": "angry",
-			"portrait": "portaits",
-			"speed": 0.05
+			"speed": 0.05,
+			"portrait": "portaits"
 		},
 		{
 			"expression": "talk",
 			"text": "Ok ok Lets do this one more song !",
 			"boxState": "normal",
-			"portrait": "bf",
-			"speed": 0.05
+			"speed": 0.05,
+			"portrait": "bf"
 		},
 		{
 			"expression": "talk",
 			"text": "ESTA VEZ IRE EN SERIO!!!",
 			"boxState": "angry",
-			"portrait": "portaits",
-			"speed": 0.05
+			"speed": 0.05,
+			"portrait": "portaits"
 		},
 		{
 			"expression": "talk",
 			"text": "BRING IT DONY!!",
 			"boxState": "angry",
-			"portrait": "bf",
-			"speed": 0.05
+			"speed": 0.05,
+			"portrait": "bf"
 		}
 	]
 }

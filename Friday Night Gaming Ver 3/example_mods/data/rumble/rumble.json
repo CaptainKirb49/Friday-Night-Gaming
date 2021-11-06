@@ -4,36 +4,36 @@
 			"expression": "Talk",
 			"text": "Nice! Video game music is the best.",
 			"boxState": "normal",
-			"speed": 0.05,
-			"portrait": "loki"
+			"portrait": "loki",
+			"speed": 0.05
 		},
 		{
 			"expression": "talk",
 			"text": "Yep!",
 			"boxState": "normal",
-			"speed": 0.05,
-			"portrait": "bf"
+			"portrait": "bf",
+			"speed": 0.05
 		},
 		{
 			"expression": "talk",
 			"text": "By the way why is Rebecca outside your window?",
 			"boxState": "normal",
-			"speed": 0.05,
-			"portrait": "bf"
+			"portrait": "bf",
+			"speed": 0.05
 		},
 		{
 			"expression": "talk",
-			"text": "I dont know. All I know is that is her friend Ash. She did get ou,t the hospital a few days ago its nice to see her out.\\n",
+			"text": "I dont know. All I know is that is her friend Ash. She did get out she hospital a few days ago its nice to see her out.\\n",
 			"boxState": "normal",
-			"speed": 0.05,
-			"portrait": "loki"
+			"portrait": "loki",
+			"speed": 0.05
 		},
 		{
 			"expression": "talk",
 			"text": "Wierd. Lets play the next game!",
 			"boxState": "normal",
-			"speed": 0.05,
-			"portrait": "bf"
+			"portrait": "bf",
+			"speed": 0.05
 		}
 	]
 }
