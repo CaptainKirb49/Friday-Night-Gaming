@@ -29,8 +29,8 @@ class GalleryState extends MusicBeatState
         new GalleryImage('gallery/scooter/scooter1', 'Thumbnail 1', 'thumb'),
         new GalleryImage('gallery/scooter/scooter2', 'Thumbnail Concept Art', 'ca'),
         new GalleryImage('gallery/other/sus', 'The original week 2 bf concept art', 'bf sus'),
-        new GalleryImage('gallery/other/stfu', 'STFU!!, im gaming', 'gamer')
-        new GalleryImage('gallery/other/gay', 'Kinda Gay', 'gay')
+        new GalleryImage('gallery/other/stfu', 'STFU!!, im gaming', 'gamer'),
+        new GalleryImage('gallery/other/gay', 'Kinda Gay', 'gay'),
         new GalleryImage('gallery/other/Thumbnail2', 'Thumbnail', 'thumb2')
     ];
 
