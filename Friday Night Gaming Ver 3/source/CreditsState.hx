@@ -47,6 +47,7 @@ class CreditsState extends MusicBeatState
 		['Composer Monke', '21', 'Instrumental for The Hello Song', 'https://twitter.com/GGilbenson', 0xFF4494E6],
 		['Musical Sleep', '23', 'Musician For Week 2', 'https://www.youtube.com/channel/UCOFQScfWYz6CeStzFoYcVpg', 0xFFD10616],
 		['ChromaCee', '22', 'Trailer for Loki Week', 'https://twitter.com/ChromaCee', 0xFFF73838],
+		['ChrisLad', 'clad', 'UI help + Background help', 'https://twitter.com/ChrisLahd', 0xFFFF00FF],
 		['Psych Engine Team'],
 		['Shadow Mario',		'shadowmario',		'Main Programmer of Psych Engine',					'https://twitter.com/Shadow_Mario_',	0xFFFFDD33],
 		['RiverOaken',			'riveroaken',		'Main Artist/Animator of Psych Engine',				'https://twitter.com/river_oaken',		0xFFC30085],

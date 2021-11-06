@@ -42,6 +42,7 @@ class GalleryState extends MusicBeatState
         super.create();
         var bg:FlxSprite =  new FlxSprite(0,0).loadGraphic(Paths.image('menuDesat'));
         bg.antialiasing = true;
+        bg.alpha = 0.25;
         add(bg);
 
         leftImage = new FlxSprite(0,0).loadGraphic(Paths.image('troll'));
