@@ -1,59 +1,59 @@
 {
 	"animations": [
 		{
+			"loop": false,
 			"offsets": [
 				-205,
 				157
 			],
-			"loop": false,
-			"fps": 24,
 			"anim": "idle",
-			"indices": [],
-			"name": "idle donny0"
+			"fps": 24,
+			"name": "idle donny0",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				-178,
 				154
 			],
-			"loop": false,
-			"fps": 24,
 			"anim": "singLEFT",
-			"indices": [],
-			"name": "left donny0"
+			"fps": 24,
+			"name": "left donny0",
+			"indices": []
 		},
 		{
-			"offsets": [
-				-250,
-				130
-			],
 			"loop": false,
-			"fps": 24,
+			"offsets": [
+				-230,
+				140
+			],
 			"anim": "singDOWN",
-			"indices": [],
-			"name": "down donny0"
+			"fps": 24,
+			"name": "down donny0",
+			"indices": []
 		},
 		{
-			"offsets": [
-				-229,
-				188
-			],
 			"loop": false,
-			"fps": 24,
+			"offsets": [
+				-207,
+				176
+			],
 			"anim": "singUP",
-			"indices": [],
-			"name": "up donny0"
+			"fps": 24,
+			"name": "up donny0",
+			"indices": []
 		},
 		{
-			"offsets": [
-				-97,
-				75
-			],
 			"loop": false,
-			"fps": 24,
+			"offsets": [
+				-112,
+				87
+			],
 			"anim": "singRIGHT",
-			"indices": [],
-			"name": "right donny0"
+			"fps": 24,
+			"name": "right donny0",
+			"indices": []
 		}
 	],
 	"no_antialiasing": false,

@@ -1,70 +1,70 @@
 {
 	"animations": [
 		{
+			"loop": false,
 			"offsets": [
 				-87,
 				107
 			],
-			"loop": false,
-			"fps": 24,
 			"anim": "idle",
-			"indices": [],
-			"name": "Loki idle0"
+			"fps": 24,
+			"name": "Loki idle0",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				-44,
 				141
 			],
-			"loop": false,
-			"fps": 24,
 			"anim": "singLEFT",
-			"indices": [],
-			"name": "Loki Left0"
+			"fps": 24,
+			"name": "Loki Left0",
+			"indices": []
 		},
 		{
-			"offsets": [
-				-76,
-				110
-			],
 			"loop": false,
-			"fps": 24,
+			"offsets": [
+				-81,
+				97
+			],
 			"anim": "singDOWN",
-			"indices": [],
-			"name": "Loki Down0"
+			"fps": 24,
+			"name": "Loki Down0",
+			"indices": []
 		},
 		{
-			"offsets": [
-				-73,
-				146
-			],
 			"loop": false,
-			"fps": 24,
+			"offsets": [
+				-79,
+				156
+			],
 			"anim": "singUP",
-			"indices": [],
-			"name": "Loki Up0"
+			"fps": 24,
+			"name": "Loki Up0",
+			"indices": []
 		},
 		{
-			"offsets": [
-				-78,
-				134
-			],
 			"loop": false,
-			"fps": 24,
+			"offsets": [
+				-86,
+				138
+			],
 			"anim": "singRIGHT",
-			"indices": [],
-			"name": "Loki Right0"
+			"fps": 24,
+			"name": "Loki Right0",
+			"indices": []
 		},
 		{
-			"offsets": [
-				-19,
-				790
-			],
 			"loop": false,
-			"fps": 24,
+			"offsets": [
+				-36,
+				783
+			],
 			"anim": "singUP-alt",
-			"indices": [],
-			"name": "Loki Jump0"
+			"fps": 24,
+			"name": "Loki Jump0",
+			"indices": []
 		}
 	],
 	"no_antialiasing": false,

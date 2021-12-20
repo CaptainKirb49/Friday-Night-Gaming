@@ -4,43 +4,43 @@
 			"expression": "talk",
 			"text": "I have a question. Why do you keep bringing up the past?",
 			"boxState": "normal",
-			"speed": 0.05,
-			"portrait": "Bf"
+			"portrait": "Bf",
+			"speed": 0.05
 		},
 		{
 			"expression": "talk",
-			"text": "Casue everything was simple back then\\nnow its just taxes,work,sleep,and bills.",
+			"text": "Because everything was simple back then\\nnow its just taxes,work,sleep,and bills.",
 			"boxState": "normal",
-			"speed": 0.05,
-			"portrait": "emodog"
+			"portrait": "emodog",
+			"speed": 0.05
 		},
 		{
 			"expression": "talk",
 			"text": "I understand, Ive been in life or death \\nsituations with clowns, elves with snipers and stairs.",
 			"boxState": "normal",
-			"speed": 0.05,
-			"portrait": "bf"
+			"portrait": "bf",
+			"speed": 0.05
 		},
 		{
 			"expression": "talk",
 			"text": "Stairs?",
 			"boxState": "normal",
-			"speed": 0.05,
-			"portrait": "emodog"
+			"portrait": "emodog",
+			"speed": 0.05
 		},
 		{
 			"expression": "talk",
 			"text": "Its a R E A L L Y stupid fight./",
 			"boxState": "normal",
-			"speed": 0.105,
-			"portrait": "bf"
+			"portrait": "bf",
+			"speed": 0.105
 		},
 		{
 			"expression": "talk",
 			"text": "OK moving on.",
 			"boxState": "normal",
-			"speed": 0.05,
-			"portrait": "emodog"
+			"portrait": "emodog",
+			"speed": 0.05
 		}
 	]
 }
